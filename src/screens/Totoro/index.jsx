@@ -8,6 +8,7 @@ export default function Totoro() {
     <View style={styles.container}>
       <Title title={"Totoro Screen"} />
       <MyButton screen={"Home"} name={"Go to Home"} />
+      <MyButton screen={"Ghibli"} name={"Go to Ghibli"} />
     </View>
   )
 }
